@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 
     #Local apps
     'posts',
+    'users',
 
 ]
 
@@ -73,6 +74,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'platzigram.wsgi.application'
+
 
 
 # Database
